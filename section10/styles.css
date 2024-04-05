@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "omyu_pretty";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2")
+        format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: "omyu_pretty", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 34, 255);
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: rgb(219, 176, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+header a:hover {
+    background-color: rgb(0, 255, 13);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 0.25rem;
+    color: rgb(58, 58, 58);
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(220, 190, 255);
+    color: rgb(30, 0, 65);
+    border-color: rgb(30, 0, 65);
+}
+
+button {
+    display: block;
+    font: inherit;
+    color: white;
+    background-color: rgb(30, 0, 65);
+    border: 1px solid rgb(30, 0, 65);
+    padding: 0.5rem, 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(130, 90, 190);
+    border-color: rgb(130, 90, 190);
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
+}
