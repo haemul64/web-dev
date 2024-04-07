@@ -1,4 +1,15 @@
 body {
-    text-align: center;
     margin: 50px auto;
+    text-align: center;
+}
+
+h3 a {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 105, 130);
+}
+
+h3 a:hover {
+    background-color: rgb(255, 195, 205);
 }
