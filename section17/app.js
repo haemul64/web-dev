@@ -1,4 +1,4 @@
-// http: 요청, 응답 처리 관련 패키지
+// http: 요청, 응답 처리 관련 패키지(객체)
 const http = require("http"); // http 객체 리턴 - 속성, 메서드 사용 가능
 
 function handleRequest(request, response) {
